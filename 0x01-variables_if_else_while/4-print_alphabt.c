@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -17,6 +16,6 @@ int main(void)
 				putchar(c);
 			c++;
 		}
-	putchat('\n');
+	putchar('\n');
 	return (0);
 }
