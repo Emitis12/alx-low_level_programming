@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0
  */
+
 int main(void)
 {
 	char c;
@@ -19,7 +19,7 @@ int main(void)
 			d++;
 		}
 	while
-		(c <= 'f'); {
+		(c <= 'f') {
 			putchar(c);
 			c++;
 		}
