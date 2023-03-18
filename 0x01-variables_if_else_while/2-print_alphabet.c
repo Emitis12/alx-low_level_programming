@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - prints alpha in lower case
+ * main - Entry point
  * Return: Always 0
  */
+
 int main(void)
 {
 	char c;
