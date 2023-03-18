@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabets in lowercase
- * followed by a new line, except q and e
+ * main - Entry point
+ *
  * Return: Always 0
  */
+
 int main(void)
 {
 	char c;
 
-	c = '0';
+	c = 'a';
 	while
 		(c <= 'z') {
 			if ((c != 'q' && c != 'e') && c <= 'z')
