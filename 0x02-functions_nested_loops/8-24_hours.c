@@ -1,12 +1,9 @@
 #include "main.h"
-
 /**
- * jack_bauer - Print every minutes of the day of Jack beauer
+ * jack_bauer - Print every minutes of the day of Jack Bauer
  * Return: ...
  */
-
 void jack_bauer(void)
-
 {
 	int a, b, c, d;
 
@@ -31,4 +28,4 @@ void jack_bauer(void)
 	}
 	}
 	}
-}	
+}
