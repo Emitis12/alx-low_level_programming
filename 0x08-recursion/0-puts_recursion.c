@@ -1,19 +1,17 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * _puts_recursion - Print a string followed by a new line
- * @s: the string to print
- *
- * Return: Nothing.
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
-    if (*s == '\0') // base case: end of string
-    {
-        printf("\n"); // print new line
-        return;
-    }
-    putchar(*s); // print current character
-    _puts_recursion(s + 1); // call function recursively with next character
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+
+	else
+		_putchar('\n');
 }
