@@ -9,12 +9,12 @@
  * @owner: The owner of the dog.
  */
 
-void init_dog(struct dog *d, char *randy, float age, char *tis)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
-		d->name = randy;
+		d->name = name;
 		d->age = age;
-		d->owner = tis;
+		d->owner = owner;
 	}
 }

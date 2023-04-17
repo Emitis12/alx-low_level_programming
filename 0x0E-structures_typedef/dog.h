@@ -3,23 +3,23 @@
 
 /**
  * struct dog - Struct dog
- * @name: randy
+ * @name: name
  * @age: age
- * @owner: tis
+ * @owner:owner
  * Description: This struct is for dog
  */
 
 struct dog
 {
-	char *randy;
+	char *name;
 	float age;
-	char *tis;
+	char *owner;
 };
 
 typedef struct dog dog_t;
-void init_dog(struct dog *d, char *randy, float age, char *tis);
+void init_dog(struct dog *d, char *name, float age, char *owner;
 void print_dog(struct dog *d);
-dog_t *new_dog(char *randy, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
 #endif /*DOG_H*/
