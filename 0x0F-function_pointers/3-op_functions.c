@@ -1,11 +1,13 @@
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * op_add - calculates hhe sum of two integers
  * @a: first integer
  * @b: second integer
  *
- * Return; sum of a and b
+ * Return: sum of a and b
  */
 int op_add(int a, int b)
 {
@@ -17,7 +19,7 @@ int op_add(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return; sub of a and b
+ * Return: sub of a and b
  */
 int op_sub(int a, int b)
 {
@@ -29,7 +31,7 @@ int op_sub(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return; mul of a and b
+ * Return: mul of a and b
  */
 int op_mul(int a, int b)
 {
@@ -41,7 +43,7 @@ int op_mul(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return; result of a and b
+ * Return: result of a and b
  */
 int op_div(int a, int b)
 {
@@ -53,7 +55,7 @@ int op_div(int a, int b)
  * @a: first integer
  * @b: second integer
  *
- * Return; remainder of a and b
+ * Return: remainder of a and b
  */
 int op_mod(int a, int b)
 {
